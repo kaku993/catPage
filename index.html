@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cat page</title>
+  <link rel="stylesheet" href="css/untitle1.css">
+</head>
+<body>
+  <header id="header" class="wrapper">
+    <h1 class="site-title">
+      <a href="index.html">
+        <img src="img/logo.svg" alt="profile">
+      </a>
+    </h1>
+    <nav class="header-right">
+      <ul>
+        <li>
+            <a href="#about"><button>About</button></a>
+        </li>
+        <li>
+          <a href="#cat"><button>cat</button></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+<main id="mainvisual">
+    <div class="box">
+      <a href="index.html" data-tooltip="MEOW!" class="message">
+        <p>Welcome Cat Page!</p>
+      </a>
+    </div>  
+  <div class="slide">
+    <img src="img/cat-A.jpg" alt="cat">
+    <img src="img/cat-C.jpg" alt="cat">
+    <img src="img/cat-D.jpg" alt="cat">
+</div>
+<p>
+	表示時間：<input type="range" id="slide_speed" value="2000" min="100" max="10000">
+</p>
+  <section id="about" class="wrapper">
+    <h2 class="section-title">About</h2>
+    <div class="content">
+      <img src="img/cat-B.jpg" alt="猫の詳細">
+      <div class="text">
+        <h3 class="content-title">猫</h3>
+          <p>
+            ”猫（ねこ）は、食肉目ネコ科ネコ属に分類され、ヨーロッパヤマネコが家畜化されたイエネコに対する通称である”
+            <br>
+            体の大きさはだいたい２３〜２５センチ
+            <br>
+            体の重さはだいたい2.5〜7.5キロ
+            <br>
+            好きな食べ物は<span>チュールとカリカリ</span>
+          </p>
+      </div>
+    </div>
+  </section>
+  <section id="cat" class="wrapper">
+    <h2 class="section-title">愛猫家たちのお言葉</h2>
+    <ul>
+      <li>
+        <img src="img/vineyard.jpg" alt="おことば１">
+          <h3 class="content-title">～レオナルド・ダ・ヴィンチ～</h3>
+          <p>ネコ科の一番小さな動物は最高傑作である。</p>
+      </li>
+      <li>
+        <img src="img/sunset.jpg" alt="おことば２">
+          <h3 class="content-title">～チャールズ・ディケンズ～</h3>
+          <p>ネコの愛より偉大なギフトがあろうか。</p>
+      </li>
+      <li>
+        <img src="img/mountain.jpg" alt="おことば３">
+          <h3 class="content-title">～エドガー・アラン・ポー～</h3>
+          <p>ネコのようにミステリアスに書けたらと思う。</p>
+      </li>
+    </ul>
+  </section>
+  <section id="world">
+    <div class="earth"></div>
+    <h4>世界の猫の数は約６億匹と言われています。</h4>
+      <p>飼育の際は愛情たっぷり育てましょう。</p>
+  </section>
+</main>
+<footer id="footer">
+  <a href="javascript:twitText()"><img src="img/Logo blue.svg" alt="Send to Twitter" width="61" height="23"></a>
+  <span id="view_clock"></span>
+  <p>2021 cat data</p>
+</footer>
+<script src="catpage.js" async></script>
+</body>
+</html>
