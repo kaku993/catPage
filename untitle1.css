@@ -105,6 +105,11 @@ html {
     text-align: center;
 }
 
+/*-スマホ閲覧時の右余白解消-*/
+#mainvisual {
+  overflow: hidden;
+}
+
 /*-padding-inline-start: 40pxの無効化-*/
 #cat ul {
   list-style-type:none;
